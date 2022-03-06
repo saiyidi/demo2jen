@@ -44,7 +44,7 @@ pipeline {
 		stage('Build Docker Image') {
 			steps {				
 				script {
-					dockerImage = docker.build("currency-exchange-sample:${env.BUILD_TAG}")
+					dockerImage = docker.build("issiway/currency-exchange-sample:${env.BUILD_TAG}")				
 				}
 
 			}
