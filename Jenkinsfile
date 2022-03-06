@@ -1,7 +1,7 @@
 
 pipeline {
-	//agent any
-	agent { docker { image 'maven:3.3.3' } }
+	agent any
+	//agent { docker { image 'maven:3.3.3' } }
 	environment {
 		dockerHome = tool 'myDocker'
 		mavenHome = tool 'myMaven'
