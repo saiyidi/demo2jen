@@ -44,7 +44,7 @@ pipeline {
 		stage('Build Docker Image') {
 			steps {				
 				script {
-					dockerImage = docker.build("myphiljenkinspipeline/currency-exchange:${env.BUILD_TAG}")
+					dockerImage = docker.build("myphiljenkinspipeline/currency-exchange-sample:${env.BUILD_TAG}")
 				}
 
 			}
