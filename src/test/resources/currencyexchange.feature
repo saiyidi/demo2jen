@@ -7,5 +7,5 @@ Feature: Currency Exchange Rate
 
     Examples:
       |	fromcurrency	|	tocurrency	|	output		|
-      |	EUR	|	INR	    |	75	|
-      |	USD	|	INR	    |	65	|
+      |	EUR	|	INR	    |	80	|
+      |	USD	|	INR	    |	70	|
